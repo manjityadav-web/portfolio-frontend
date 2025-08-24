@@ -1,0 +1,19 @@
+.cnt {
+  text-align: justify;
+}
+
+.ab {
+  width: 200px;
+  margin: auto; /* center the hr line */
+}
+
+.im {
+  max-width: 100%;
+  height: auto;
+  min-height: 200px;
+}
+
+/* Optional: Stop horizontal scroll */
+body {
+  overflow-x: hidden;
+}
