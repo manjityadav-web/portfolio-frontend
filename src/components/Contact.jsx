@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import NavBar from './NavBar'
+// import Navbar from './Navbar'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import { useLocation } from 'react-router-dom'
 import axios from 'axios'
