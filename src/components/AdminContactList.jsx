@@ -18,7 +18,7 @@ const[data, setData]= useState([])
 
   const fetchData = async()=>{
 
-        const result = await axios.get('http://localhost:3000/api/contact-list')
+        const result = await axios.get('https://portfolio-backend-ptya.onrender.com/api/contact-list')
 
          if(result?.data?.code==200){
           setData(result?.data?.data)
@@ -33,7 +33,7 @@ const[data, setData]= useState([])
 
   const handleDeleteMessage = async(email)=>{
 
-    const response = await axios.post('http://localhost:3000/api/delete-contact', {email});
+    const response = await axios.post('https://portfolio-backend-ptya.onrender.com/api/delete-contact', {email});
         if (response?.data?.code == 200) {
           Swal.fire({
             title: "Delete Property.",

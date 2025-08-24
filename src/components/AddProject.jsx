@@ -30,7 +30,7 @@ const AddProject = () => {
     
     
 
-     const response = await axios.post('http://localhost:3000/api/add-project', formData, {
+     const response = await axios.post('https://portfolio-backend-ptya.onrender.com/api/add-project', formData, {
             headers: {
         'Content-Type': 'multipart/form-data' 
       }

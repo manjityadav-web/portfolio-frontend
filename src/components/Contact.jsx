@@ -30,7 +30,7 @@ const Contact = () => {
 
    const handleContact =  async(data)=>{
 
-   const result =  await axios.post('http://localhost:3000/api/contact',data)
+   const result =  await axios.post('https://portfolio-backend-ptya.onrender.com/api/contact',data)
 
      if(result?.data?.code==200){
             swal.fire({

@@ -15,7 +15,7 @@
    ,[])
  
  const fetchList = async()=>{
-          const result = await axios.get('http://localhost:3000/api/project')
+          const result = await axios.get('https://portfolio-backend-ptya.onrender.com/api/project')
        
         
           if(result?.data?.code==200){
