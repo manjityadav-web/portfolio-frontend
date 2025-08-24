@@ -1,6 +1,6 @@
 
 
-import './Hero.css'
+import './hero.css'
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
