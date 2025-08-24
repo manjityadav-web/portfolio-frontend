@@ -39,8 +39,8 @@ function App() {
           <Route path="/contact" element={<Contact/>}/>
 
           {/* admin  */}
-          <Route path="/admin9986/addProject" element={<AddProject/>}/>
-          <Route path="/admin9986/contact" element={<AdminContactList/>}/>
+          <Route path="/addProject" element={<AddProject/>}/>
+          <Route path="/adminContact" element={<AdminContactList/>}/>
 
           <Route path="*" element={<h1>Page Not Found</h1>}/>
         </Routes>
