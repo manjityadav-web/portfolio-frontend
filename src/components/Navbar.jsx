@@ -9,7 +9,7 @@ import {Link, NavLink} from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark  sticky-top" style={{backgroundColor:"white"}}>
+    <nav className="navbar navbar-expand-lg navbar-light  sticky-top" style={{backgroundColor:"white"}}>
       <div className="container fs-4">
         
          <p className="text-dark fs-3 ">@msdevelopment</p> 
