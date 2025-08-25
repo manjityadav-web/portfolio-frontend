@@ -49,14 +49,14 @@
                       <div className="bathrooms">
                         <span>
 
-                        <button className="  mt-5  fs-3 buy" style={{backgroundColor:"#002057" , borderRadius:"10px"}}><a href={data?.view} target='_blank' className='text-decoration-none text-light'>View</a></button>
+                        <button className="  mt-3 mb-3 fs-3 buy" style={{backgroundColor:"#002057" , borderRadius:"10px"}}><a href={data?.view} target='_blank' className='text-decoration-none text-light'>View</a></button>
                         </span>
                        
                       </div>
                              <div className="bathrooms">
                              <span>
 
-                        <button className="  mt-5  fs-3 buy" style={{backgroundColor:"#002057",borderRadius:"10px"}}><a href={data?.github} target='_blank' className='text-decoration-none text-light'>Github</a></button>
+                        <button className="  mt-3 mb-3 fs-3 buy" style={{backgroundColor:"#002057",borderRadius:"10px"}}><a href={data?.github} target='_blank' className='text-decoration-none text-light'>Github</a></button>
                         </span>
                        
                       </div>
